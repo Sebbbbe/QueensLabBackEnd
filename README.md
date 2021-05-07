@@ -5,3 +5,5 @@ Applikationen använder sig av swagger. För vissa requests behöver man ID tex 
 Ifall swagger inte startas automatiskt på launch så efter local host skriv /index.html för att få upp swagger.
 
 
+
+Det är inte best practise att komma åt databasen i controllers men gjorde det då vi inte har någon hämlig information i detta projekt.
