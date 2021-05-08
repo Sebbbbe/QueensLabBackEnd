@@ -17,8 +17,9 @@ namespace EvaluationAssignmentQueensLab.Controllers.Sections.Commands.DeleteVisi
         // nollställer en zone
         public void DeleteVisitorsInSection(DeleteVisitorsFromASectionCommand deleteVisitorsFromASectionCommand)
         {
-            //   _shopDBContext.sections.Find(deleteVisitorsFromASectionCommand.SectionID);
+            var findSection = _shopDBContext.sections.FirstOrDefault(Sections => Sections.SectionID == deleteVisitorsFromASectionCommand.SectionID);
             _shopDBContext.Remove(_shopDBContext.visitors.Single(visitor => visitor.SectionID == deleteVisitorsFromASectionCommand.SectionID));
+            findSection.VisitorAmount = 0;
             _shopDBContext.SaveChanges();
 
 

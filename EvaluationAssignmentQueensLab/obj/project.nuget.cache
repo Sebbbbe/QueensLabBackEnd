@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pfbp5E1Q5Al//bRRMEyOR6otKs5X4+S94G4iETYL+eRE6KTwrXkquD3+2ygXgwFZ/id4dh+7Zt6nhQzDdkd6bw==",
+  "dgSpecHash": "dXPb+z754o5ta1kHmakam1HLUc/b1Pod4HlJ/CNe9lDnynezpppmO1+fHcsVj3mqLZVA/hCuJn5qG4rmTHZ+jQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sebas\\OneDrive\\Skrivbord\\queenslabCLeanUp\\EvaluationAssignmentQueensLab\\EvaluationAssignmentQueensLab\\EvaluationAssignmentQueensLab.csproj",
+  "projectFilePath": "C:\\Users\\sebas\\OneDrive\\Skrivbord\\New folder (2)\\QueensLabBackEnd\\EvaluationAssignmentQueensLab\\EvaluationAssignmentQueensLab.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sebas\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\sebas\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.5\\microsoft.aspnetcore.jsonpatch.5.0.5.nupkg.sha512",
